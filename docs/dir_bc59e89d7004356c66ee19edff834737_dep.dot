@@ -1,0 +1,12 @@
+digraph "Sprite_Editor" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc59e89d7004356c66ee19edff834737 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_bc59e89d7004356c66ee19edff834737.html"];
+    dir_bc59e89d7004356c66ee19edff834737 [shape=plaintext label="Sprite_Editor"];
+    dir_c62fa1dc1d7a6d1f8a753195e9fed228 [shape=box label="include" color="black" fillcolor="white" style="filled" URL="dir_c62fa1dc1d7a6d1f8a753195e9fed228.html"];
+    dir_1e7f1ffcd2a3e8dc232e26c081cd3bd8 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_1e7f1ffcd2a3e8dc232e26c081cd3bd8.html"];
+  }
+  dir_1e7f1ffcd2a3e8dc232e26c081cd3bd8->dir_c62fa1dc1d7a6d1f8a753195e9fed228 [headlabel="2", labeldistance=1.5 headhref="dir_000005_000004.html"];
+}

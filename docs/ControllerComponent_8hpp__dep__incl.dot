@@ -1,0 +1,27 @@
+digraph "include/ControllerComponent.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="include/ControllerComponent.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/AudioManager.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$AudioManager_8cpp.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/ControllerComponent.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ControllerComponent_8cpp.html"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/ResourceManager.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ResourceManager_8cpp.html"];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="include/GameObject.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$GameObject_8hpp.html"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/GameObject.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$GameObject_8cpp.html"];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="include/ResourceManager.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ResourceManager_8hpp.html"];
+  Node10 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="include/Engine.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$include_2Engine_8hpp.html"];
+  Node8 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="include/GameManager.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$GameManager_8hpp.html"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="src/GameManager.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$GameManager_8cpp.html"];
+  Node12 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
